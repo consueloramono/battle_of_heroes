@@ -16,29 +16,14 @@
 1. **Клонуйте репозиторій** або завантажте його як ZIP-архів.
 
    ```bash
-   git clone https://github.com/your-username/your-repository.git
+   git clone [https://github.com/consueloramono/battle_of_heroes]
    ```
 
 2. **Перейдіть** до теки проекту.
 
    ```bash
-   cd your-repository
+   cd battle_of_heroes
    ```
-
-3. **Встановіть** необхідні залежності (якщо вони є).
-
-   ```bash
-   npm install
-   ```
-
-## Налаштування
-
-1. **Переконайтеся**, що файл 
-
-tsconfig.json
-
- має потрібні налаштування компілятора TypeScript.
-
 ## Запуск
 
 1. **Скомпілюйте** TypeScript код у JavaScript.
@@ -60,13 +45,11 @@ tsconfig.json
 
 findHeroByProperty
 
-.
-- **Проведення боїв** між героями за допомогою функції 
+.- **Проведення боїв** між героями за допомогою функції 
 
 battleRound
 
-.
-- **Виведення статистики** після бою.
+.- **Виведення статистики** після бою.
 
 ## Приклад
 
@@ -88,24 +71,12 @@ if (foundHero) {
 
 ## Структура проекту
 
-- 
-
-src
-
- - сирцеві файли TypeScript.
-- 
-
-dist
-
- - скомпільовані файли JavaScript.
-- 
-
-tsconfig.json
-
- - конфігурація компілятора TypeScript.
-- 
-
-.gitignore
-
- - файли та теки, що ігноруються Git.
+- src
+    - файли TypeScript.
+- dist
+    - скомпільовані файли JavaScript.
+- tsconfig.json
+- конфігурація компілятора TypeScript.
+- .gitignore
+- файли та теки, що ігноруються Git.
 - `README.md` - цей файл.
